@@ -1,4 +1,7 @@
-# test coverage for  [angular2-select (v1.0.0-beta.3)](https://basvandenberg.github.io/angular2-select)  [![npm package](https://img.shields.io/npm/v/npmtest-angular2-select.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-select) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-select.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-select)
+# npmtest-angular2-select
+
+#### basic test-coverage for  [angular2-select (v1.0.0-beta.3)](https://basvandenberg.github.io/angular2-select)  [![npm package](https://img.shields.io/npm/v/npmtest-angular2-select.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-select) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-select.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-select)
+
 #### Select component for Angular2.
 
 [![NPM](https://nodei.co/npm/angular2-select.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/angular2-select)
@@ -32,15 +35,26 @@
 ```json
 
 {
-    "author": {
-        "name": "Bastiaan van den Berg"
-    },
+    "name": "angular2-select",
+    "version": "1.0.0-beta.3",
+    "description": "Select component for Angular2.",
+    "main": "index.js",
+    "repository": "git@github.com:basvandenberg/angular2-select.git",
+    "keywords": [
+        "angular",
+        "angular2",
+        "select",
+        "select2",
+        "selectize",
+        "chosen"
+    ],
+    "author": "Bastiaan van den Berg <b.a.vandenberg@gmail.com>",
+    "license": "ISC",
     "bugs": {
         "url": "https://github.com/basvandenberg/angular2-select/issues"
     },
+    "homepage": "https://basvandenberg.github.io/angular2-select",
     "dependencies": {},
-    "deprecated": "This package has been renamed to ng-select.",
-    "description": "Select component for Angular2.",
     "devDependencies": {
         "@angular/common": "^2.4.1",
         "@angular/compiler": "^2.4.1",
@@ -68,36 +82,7 @@
         "typescript": "2.0.10",
         "zone.js": "^0.7.4"
     },
-    "directories": {},
-    "dist": {
-        "shasum": "9010e9683f2563a493acca1cd11658bbe0c28b98",
-        "tarball": "https://registry.npmjs.org/angular2-select/-/angular2-select-1.0.0-beta.3.tgz"
-    },
-    "gitHead": "4c71368c50cf15d12c82c8646ac34bfd002e6865",
-    "homepage": "https://basvandenberg.github.io/angular2-select",
-    "keywords": [
-        "angular",
-        "angular2",
-        "select",
-        "select2",
-        "selectize",
-        "chosen"
-    ],
-    "license": "ISC",
-    "main": "index.js",
-    "maintainers": [
-        {
-            "name": "basvandenberg"
-        }
-    ],
-    "name": "angular2-select",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/basvandenberg/angular2-select.git"
-    },
-    "scripts": {},
-    "version": "1.0.0-beta.3"
+    "bin": {}
 }
 ```
 

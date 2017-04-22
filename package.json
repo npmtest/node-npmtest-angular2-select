@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [angular2-select (v1.0.0-beta.3)](https://basvandenberg.github.io/angular2-select) [![npm package](https://img.shields.io/npm/v/npmtest-angular2-select.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-select) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-select.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-select)",
+    "description": "#### basic test-coverage for  [angular2-select (v1.0.0-beta.3)](https://basvandenberg.github.io/angular2-select)  [![npm package](https://img.shields.io/npm/v/npmtest-angular2-select.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-select) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-select.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-select)",
     "devDependencies": {
         "angular2-select": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.23"
 }
